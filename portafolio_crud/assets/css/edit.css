@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(#e31717, #2e3de9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+max-width: 500px;
+margin: 60px auto;
+padding: 2rem;
+background: #fff;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título del formulario */
+.form-container h2 {
+text-align: center;
+margin-bottom: 1.5rem;
+font-size: 1.5rem;
+}
+
+/* Estilo para los inputs y textarea */
+.styled-form input[type="text"],
+.styled-form input[type="url"],
+.styled-form input[type="file"],
+.styled-form textarea {
+width: 100%;
+padding: 10px 14px;
+margin-bottom: 1rem;
+border: 1px solid #ccc;
+border-radius: 8px;
+font-size: 1rem;
+box-sizing: border-box;
+}
+
+/* Ajustes para textarea */
+.styled-form textarea {
+resize: vertical;
+min-height: 100px;
+}
+
+/* Botón */
+.styled-form button {
+display: block;
+width: 100%;
+background-color: #3498db;
+color: #fff;
+border: none;
+padding: 12px;
+border-radius: 8px;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.styled-form button:hover {
+background-color: #2980b9;
+}
