@@ -1,7 +1,7 @@
 # portoforio-crudo
 portafolio con CRUD
 
-para poder usarlo de manera local deberas crear la base de dado y su respectivas tablas con este script
+para poder usarlo de manera local deberas crear la base de datos y su respectivas tablas con este script
 
 CREATE DATABASE portafolio_db;
 USE portafolio_db;
