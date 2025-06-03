@@ -24,3 +24,8 @@ CREATE TABLE proyectos (
 
 -- Usuario de prueba (usuario: admin, contraseña: 123456)
 INSERT INTO users (username, password) VALUES ('admin', MD5('123456'));
+
+
+USO DE IA:
+
+Chat GPT para correcion de errores o para recibir sugerencias de semantica y codigo css para estilizacion de algunas zonas, como por ejemplo una grilla de como se muestran los proyectos al momento de subirse.
